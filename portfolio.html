@@ -12,7 +12,8 @@
 
 <body>
   <!-- Шапка сайта -->
-  <header class="header side-portfolio">
+   <!-- Шапка сайта -->
+   <header class="header side-portfolio">
 
     <div class="container">
         <a class="logo" href="index.html">
@@ -28,15 +29,24 @@
 
         </nav>
         <ul class="nav-contact" >
-            <li> <a class="contact-link email-link" href="mailto:info@devstudio.com" >info@devstudio.com </a></li>
-            <li> <a class="contact-link" href="tel:+380961111111" >+38 096 111 11 11</a></li>
+            <li> <a class="contact-link email-link"  href="mailto:info@devstudio.com">
+                <svg class="email-icon" >
+                    <use href="./icon/symbol-defs.svg#icon-convert"></use>
+                </svg>
+                info@devstudio.com 
+                </a>
+            </li>
+            <li> <a class="contact-link tel-link" href="tel:+380961111111" >
+                <svg class="tel-icon" >
+                    <use href="./icon/symbol-defs.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11
+                </a>
+            </li>
         </ul>
     </div>
-    
-        
-
-    
-</header>
+             
+    </header>
     <!--Уникальная информация -->
     <main>
         <section class="samples">
@@ -52,7 +62,7 @@
 
                 <ul class="work-list">
                     <li class="work-project" >
-                        <a  href=""><img class="project-photo" src="./images/portfolio1.jpg" alt="Ноутбук">
+                        <a class="project-link"  href=""><img class="project-photo" src="./images/portfolio1.jpg" alt="Ноутбук">
                            <div class="project-content">
                                 <h2 class="work-name">Технокряк</h2>
                                 <p class="work-text">Веб-сайт</p>
@@ -60,7 +70,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio2.jpg" alt="Баскетболисты">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio2.jpg" alt="Баскетболисты">
                             <div class="project-content">
                                 <h2 class="work-name">Постер New Orlean vs Golden Star</h2> 
                                 <p class="work-text">Дизайн</p>
@@ -69,7 +79,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio3.jpg" alt="Логотип ресторана">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio3.jpg" alt="Логотип ресторана">
                             <div class="project-content">
                                 <h2 class="work-name">Ресторан Seafood</h2>
                                 <p class="work-text">Приложение</p>
@@ -78,7 +88,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio4.jpg" alt="Наушники">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio4.jpg" alt="Наушники">
                             <div class="project-content">
                                 <h2 class="work-name">Проект Prime</h2>
                                 <p class="work-text">Маркетинг</p>
@@ -87,7 +97,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio5.jpg" alt="Белая и коричнева коробка">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio5.jpg" alt="Белая и коричнева коробка">
                             <div class="project-content">
                                 <h2 class="work-name">Проект Boxes</h2>
                                 <p class="work-text">Приложение</p>
@@ -96,7 +106,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio6.jpg" alt="Монитор">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio6.jpg" alt="Монитор">
                             <div class="project-content">
                                 <h2 class="work-name">Inspiration has no Borders</h2>
                                 <p class="work-text">Веб-сайт</p>
@@ -105,7 +115,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio7.jpg" alt="Книга">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio7.jpg" alt="Книга">
                             <div class="project-content">
                                 <h2 class="work-name">Издание Limited Edition</h2>
                                 <p class="work-text">Дизайн</p>
@@ -114,7 +124,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio8.jpg" alt="Логотип компании">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio8.jpg" alt="Логотип компании">
                             <div class="project-content">
                                 <h2 class="work-name">Проект LAB</h2>
                                 <p class="work-text">Маркетинг</p>
@@ -123,7 +133,7 @@
                         </a>
                     </li>
                     <li class="work-project" > 
-                        <a  href=""><img class="project-photo" src="./images/portfolio9.jpg" alt="Работа на ноутбуком">
+                        <a class="project-link" href=""><img class="project-photo" src="./images/portfolio9.jpg" alt="Работа на ноутбуком">
                             <div class="project-content">
                                 <h2 class="work-name">Growing Business</h2>
                                 <p class="work-text">Приложение</p>
@@ -138,20 +148,56 @@
     </main>
     <!--Подвал-->
     <footer>
-        <div class="container">
-            <a class="logo-footer" href="index.html" >
-             <span class="logo-web" >Web</span><span class="logo-studio" >Studio</span>
-         </a>
+        <div class="container footer-part">
+            <div class="nav-footer">
+                 <a class="logo-footer" href="index.html" >
+                     <span class="logo-web" >Web</span><span class="logo-studio" >Studio</span>
+                 </a>
  
-         <address>
-             г. Киев, пр-т Леси Украинки, 26
-         </address> 
+                 <address>
+                     г. Киев, пр-т Леси Украинки, 26
+                 </address> 
  
-         <ul class="contact-footer" >
-             <li> <a class="footer-link" href="mailto:info@devstudio.com" >info@devstudio.com </a></li>
-             <li> <a class="tel-footer footer-link" href="tel:+380961111111" >+38 096 111 11 11</a></li>
-         </ul>
-         
+                 <ul class="contact-footer" >
+                     <li> <a class="footer-link" href="mailto:info@devstudio.com" >info@devstudio.com </a></li>
+                     <li> <a class="tel-footer footer-link" href="tel:+380961111111" >+38 096 111 11 11</a></li>
+                 </ul>
+            </div>
+            
+             <div class="social-footer">
+                 <p class="action">присоединяйтесь</p>
+                 <ul class="company-links">
+                     <li class="choose-social">
+                         <a class="company-social" href="">
+                             <svg class="master-icon" >
+                                 <use href="./icon/symbol-defs.svg#icon-instagram"></use>
+                             </svg>
+                         </a>
+                     </li>
+                     <li class="choose-social">
+                         <a class="company-social" href="">
+                             <svg class="master-icon">
+                                 <use href="./icon/symbol-defs.svg#icon-twitter"></use>
+                             </svg>
+                         </a>
+                     </li>
+                     <li class="choose-social">
+                         <a class="company-social" href="">
+                             <svg class="master-icon">
+                                 <use href="./icon/symbol-defs.svg#icon-facebook"></use>
+                             </svg>
+                         </a>
+                     </li>
+                     <li class="choose-social">
+                         <a class="company-social" href="">
+                             <svg class="master-icon">
+                                 <use href="./icon/symbol-defs.svg#icon-linkedin"></use>
+                             </svg>
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+        </div>
      </footer>
 </body>
 </html>
